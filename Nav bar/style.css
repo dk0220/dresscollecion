@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;;
+    padding: 10px;
+}
+
+.navbar-links{
+ display: flex;
+  column-gap: 5pc;
+
+}
+.navbar-links a {
+    text-decoration: none;
+    color: darkblue;
+}
+.navbar-links a:hover{
+ text-decoration: underline;
+    color:darkblueJEWELS
+}
+.navlink-toggle{
+    display:none;
+}
+
+.side-navbar{
+    background-color: #10232c;
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    left: -60%;
+    top: 0;
+    padding: 20px;
+   
+    transition: 2s;
+}
+.side-navclose{
+    text-align: right;
+}
+
+.side-navbarlink{
+    margin-bottom: 20px;
+}
+.side-navbarlink a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+ .header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+ }
+ .text{
+    padding: 30px 0 ;
+    margin: 20px 0 ;
+ }
+
+ .shop-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px; 
+    border-radius: 7px;
+ }
+ .service{
+    padding: 20px;
+ }
+ .service-cointainer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .service-cointainer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+ }
+ .service-cointainer2 div{
+    background-color: #f2f4f7;
+    padding: 10px;
+    border-radius: 5px;
+ }
+ .newarrival{
+    display: flex;
+    justify-content: space-around;
+    
+    
+ }
+ h2{
+    padding: 20px;
+ }
+ .new-arrivalimg{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .news{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+margin-top: 10px;   
+ }
+ .news input{
+    width: 80vw;
+    padding: 10px;
+    border:solid black;
+    margin-top: 10px;
+ }
+ .news button{
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 20px;
+ }
+ .footer{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+  
+ }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+
+    .navlink-toggle{
+        display: block;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .header-img{
+        display: none;
+    }
+    .service-cointainer1{
+        display: none;
+    }
+    .service-cointainer2{
+        flex-direction: column;
+    }
+}
